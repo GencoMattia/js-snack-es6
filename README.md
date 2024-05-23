@@ -24,3 +24,18 @@ Id  Name                Grades
 196 Luigi Grimaldello       68
 102 Piero della Francesca   50
 120 Francesca da Polenta    84
+
+
+
+------PASSAGGI------
+
+----- SNACK 1
+- creare un array di oggetti letterali in cui inserire la lista degli invitati con tutti i dati.
+- con un ciclo for in stampiamo la lista con tutti i dati
+
+
+-----SNACK 2
+- creare un array di oggetti generale in cui inserire tutti gli studenti e i loro dati
+    - usare .toUpperCase per rendere i nomi completamente in maiuscolo
+- usando un array.filter creiamo una seconda lista con gli studenti che hanno id superiore a 120 e voti superiori a 70.
+- con un secondo filter sul secondo array scremiamo ulteriormente gli studenti per avere una lista di soli studenti con voto superiore a 70
