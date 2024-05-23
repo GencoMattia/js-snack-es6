@@ -6,32 +6,52 @@ const studentsList = [
     },
     {
         id: 110,
-        name: "Giuseppina della Rovere",
+        name: "Paola Cortellessa",
         grades: 96,
     },
     {
         id: 250,
-        name: "Giuseppina della Rovere",
+        name: "Andrea Mantegna",
         grades: 48,
     },
     {
         id: 145,
-        name: "Giuseppina della Rovere",
+        name: "Gaia Borromini",
         grades: 74,
     },
     {
         id: 196,
-        name: "Giuseppina della Rovere",
+        name: "Luigi Grimaldello",
         grades: 68,
     },
     {
         id: 102,
-        name: "Giuseppina della Rovere",
+        name: "Piero della Francesca",
         grades: 50,
     },
     {
         id: 120,
-        name: "Giuseppina della Rovere",
+        name: "Francesca da Polenta",
         grades: 84,
     },
 ];
+
+const uppercaseStudentsList = [];
+
+studentsList.forEach((student) => {
+    uppercaseStudentsList.push(student.name.toUpperCase());
+});
+
+const idAndGradesStudents = studentsList.filter((student) => {
+    if(student.grades > 70 && student.id > 120){
+        return true
+    }
+});
+
+const gradesStudents = studentsList.filter((student) => {
+    if(student.grades > 70){
+        return true
+    }
+});
+
+console.log(studentsList, uppercaseStudentsList, gradesStudents, idAndGradesStudents);

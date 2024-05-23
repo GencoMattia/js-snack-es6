@@ -50,4 +50,3 @@ guestsList.forEach((guest, index) => {
 });
 
 console.log(guestsList);
-
