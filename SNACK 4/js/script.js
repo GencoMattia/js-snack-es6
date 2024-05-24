@@ -57,3 +57,12 @@ function getRandomNumber(min, max){
 }
 
 console.log(squadreCalcio)
+
+const falliSubitiSquadre = [];
+
+squadreCalcio.forEach(squadra => {
+    const { nome, falliSubiti } = squadra;
+    falliSubitiSquadre.push({ nome, falliSubiti });
+});
+
+console.log(falliSubitiSquadre);
