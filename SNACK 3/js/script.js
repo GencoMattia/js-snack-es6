@@ -40,3 +40,21 @@ const racingBikes = [
         weight: 6.6 
     }
 ];
+
+let lightestBike;
+
+racingBikes.forEach((bike, index) => {
+    let isBikeLightest = true;
+    racingBikes.forEach((otherBike, otherIndex) => {
+        if(index !== otherIndex && bike.weight > otherBike.weight) {
+            isBikeLightest = false;
+        }
+    });
+    if(isBikeLightest === true){
+        lightestBike = bike;
+    }
+});
+
+const { name, weight } = lightestBike;
+
+console.log(`La bici più leggera è ${name} con un peso di ${weight}Kg.`);
