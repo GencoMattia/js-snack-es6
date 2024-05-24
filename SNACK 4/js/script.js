@@ -1,53 +1,53 @@
 const squadreCalcio = [
     { 
         nome: "Juventus", 
-        puntiFatti: 0, 
-        falliSubiti: 0 
+        puntiFatti: getRandomNumber(1, 100), 
+        falliSubiti: getRandomNumber(1, 100) 
     },
     { 
         nome: "Inter", 
-        puntiFatti: 0, 
-        falliSubiti: 0 
+        puntiFatti: getRandomNumber(1, 100), 
+        falliSubiti: getRandomNumber(1, 100) 
     },
     { 
         nome: "Milan", 
-        puntiFatti: 0, 
-        falliSubiti: 0 
+        puntiFatti: getRandomNumber(1, 100), 
+        falliSubiti: getRandomNumber(1, 100) 
     },
     { 
         nome: "Roma", 
-        puntiFatti: 0, 
-        falliSubiti: 0 
+        puntiFatti: getRandomNumber(1, 100), 
+        falliSubiti: getRandomNumber(1, 100) 
     },
     { 
         nome: "Napoli", 
-        puntiFatti: 0, 
-        falliSubiti: 0 
+        puntiFatti: getRandomNumber(1, 100), 
+        falliSubiti: getRandomNumber(1, 100) 
     },
     { 
         nome: "Lazio", 
-        puntiFatti: 0, 
-        falliSubiti: 0 
+        puntiFatti: getRandomNumber(1, 100), 
+        falliSubiti: getRandomNumber(1, 100) 
     },
     { 
         nome: "Fiorentina", 
-        puntiFatti: 0, 
-        falliSubiti: 0 
+        puntiFatti: getRandomNumber(1, 100), 
+        falliSubiti: getRandomNumber(1, 100) 
     },
     { 
         nome: "Atalanta", 
-        puntiFatti: 0, 
-        falliSubiti: 0 
+        puntiFatti: getRandomNumber(1, 100), 
+        falliSubiti: getRandomNumber(1, 100) 
     },
     { 
         nome: "Torino", 
-        puntiFatti: 0, 
-        falliSubiti: 0 
+        puntiFatti: getRandomNumber(1, 100), 
+        falliSubiti: getRandomNumber(1, 100) 
     },
     { 
         nome: "Sampdoria", 
-        puntiFatti: 0, 
-        falliSubiti: 0 
+        puntiFatti: getRandomNumber(1, 100), 
+        falliSubiti: getRandomNumber(1, 100) 
     }
 ];
 
@@ -56,4 +56,4 @@ function getRandomNumber(min, max){
     return randomNumber;
 }
 
-console.log(getRandomNumber(1, 10))
+console.log(squadreCalcio)
