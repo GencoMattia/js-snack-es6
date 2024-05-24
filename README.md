@@ -34,8 +34,27 @@ Id  Name                Grades
 - con un ciclo for in stampiamo la lista con tutti i dati
 
 
------SNACK 2
+----- SNACK 2
 - creare un array di oggetti generale in cui inserire tutti gli studenti e i loro dati
     - usare .toUpperCase per rendere i nomi completamente in maiuscolo
 - usando un array.filter creiamo una seconda lista con gli studenti che hanno id superiore a 120 e voti superiori a 70.
 - con un secondo filter sul secondo array scremiamo ulteriormente gli studenti per avere una lista di soli studenti con voto superiore a 70
+
+
+----- SNACK 3
+- creo una array di oggetti
+- uso ciclo while per confrontare l'attributo peso di ogni oggetto finche non trovo l'oggetto con il peso che non è > di ogni altro oggetto
+- console.log usando deconstructing e literal template
+
+----- SNACK 4
+- creo un array con le proprietà richieste
+- creo una funzione per generare numeri random con min e max
+    applico la funzione ad ogni proprietà punti fatti e falli subiti
+- creo un nuovo array usando la destrutturazione che comprenda solo nomi e falli subiti
+    uso un ciglo for per ciclare ogni elemento dell'array originale e pushare soltanto le propietà richieste
+
+----- SNACK 5
+- creo array di oggetti richiesto
+- usando .map attacco un cartellino ad ogni oggetto
+    creo una funzione che ritorna una lettera casuale randomica
+- stampo il nuovo array con i cartellini in ordine alfabetico. Se non ricordo male < e > con le stringe ordinano in ordine alfabetico.
