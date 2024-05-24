@@ -35,6 +35,10 @@ console.log(fashionLabeledArticles);
 
 // ----------FUNCTIONS------------
 
+function compareNumbers(a, b) {
+    return a - b;
+}
+
 function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
