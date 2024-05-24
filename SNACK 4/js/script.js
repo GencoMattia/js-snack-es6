@@ -50,3 +50,10 @@ const squadreCalcio = [
         falliSubiti: 0 
     }
 ];
+
+function getRandomNumber(min, max){
+    const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+    return randomNumber;
+}
+
+console.log(getRandomNumber(1, 10))
