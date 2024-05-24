@@ -57,4 +57,11 @@ racingBikes.forEach((bike, index) => {
 
 const { name, weight } = lightestBike;
 
+const containerEl = document.querySelector(".container>section");
+const printEl = document.createElement("p");
+containerEl.appendChild(printEl);
+printEl.append(`La bici più leggera è ${name} con un peso di ${weight}Kg.`)
+
+console.log(containerEl)
+
 console.log(`La bici più leggera è ${name} con un peso di ${weight}Kg.`);
