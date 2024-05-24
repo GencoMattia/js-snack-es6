@@ -56,13 +56,22 @@ function getRandomNumber(min, max){
     return randomNumber;
 }
 
-console.log(squadreCalcio)
+console.log(squadreCalcio);
+
+
+const containerEl = document.querySelector(".container>section");
+const listEl = document.createElement("ul")
+containerEl.appendChild(listEl);
 
 const falliSubitiSquadre = [];
 
 squadreCalcio.forEach(squadra => {
-    const { nome, falliSubiti } = squadra;
-    falliSubitiSquadre.push({ nome, falliSubiti });
+    const {nome, falliSubiti} = squadra;
+    falliSubitiSquadre.push({nome, falliSubiti});
+    const printEl = document.createElement("li");
+    listEl.appendChild(printEl);
+    printEl.append(`La squadra ${nome} ha subito ${falliSubiti} falli.`);
 });
+
 
 console.log(falliSubitiSquadre);
