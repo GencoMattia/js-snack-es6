@@ -21,9 +21,17 @@ const fashionArticlesList = [
     },
 ];
 
+const fashionLabeledArticles = [];
+fashionArticlesList.forEach((article) => {
+    const {name, type, color, position} = article
+    article.positiion = getRandomAlphabetLetter();
+    fashionLabeledArticles.push(article);
+});
+
+console.log(fashionLabeledArticles);
 
 
-
+// console.log(getRandomAlphabetLetter());
 
 // ----------FUNCTIONS------------
 
@@ -39,5 +47,3 @@ function getRandomAlphabetLetter(){
 }
 
 
-
-console.log(getRandomAlphabetLetter());
